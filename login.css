@@ -1,0 +1,50 @@
+/* Full Page Container */
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Left Side: Login Box */
+.login-box {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+input::placeholder{
+    color: white !important;
+}
+
+/* Right Side: Image */
+.login-image img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Dark Mode */
+.dark-mode .login-box {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .form-control {
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid #444;
+}
+
+.dark-mode a {
+    color: #ddd !important;
+}
+
+.dark-mode a:hover {
+    color: #bbb !important;
+}
+.dark-mode{
+    background-color: rgb(53, 53, 53);
+}
+
